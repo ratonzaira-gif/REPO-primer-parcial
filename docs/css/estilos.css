@@ -1,0 +1,175 @@
+body {
+    font-family: 'Lato', Arial, sans-serif;
+    margin: 3%;
+    padding: 5px;
+}
+
+.contenedor-general {
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.contenedor { /* todos los h1 */
+    color: rgb(118, 222, 231);
+    background-color: rgb(1, 10, 47);
+    border: 4px solid rgb(1, 10, 47);
+    border-radius: 3px;
+    border-width: 6px;
+    border-block-width: 6px;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    max-width: 58rem;
+    margin: auto;
+}
+
+.encabezados { /* h2, h3, h4 */
+    color: rgb(118, 222, 231);
+    background-color: rgb(1, 10, 47);
+    border: 4px solid rgb(1, 10, 47);
+    border-radius: 3px;
+    border-width: 6px;
+    border-block-width: 6px;
+    font-family: 'Lato', Arial, sans-serif;
+    text-align: left;
+}
+
+/* medidas y margen de h2, h3 h4 */
+.w1 { width: 55%; margin-right: 40rem; display: block; }
+.w2 { width: 56%; margin-right: 40rem; display: block;}
+.w3 { width: 31%; margin-right: 61rem; }
+.w4 { width: 16%; margin-right: 80rem; }
+.w5 { width: 33%; margin-right: 58rem; }
+.w6 { width: 29%; margin-right: 10rem; display: block;}
+.w7 { width: 40%; margin-right: 30rem; display: block;}
+
+.titulo-chico { /* h3, h4 */
+    font-size: 20px;
+}
+
+.titulo-normal { /* h2 */
+    font-size: 24px;
+}
+
+.parrafo { /* todos los parrafos */
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 10, 47);
+    border: 4px solid rgb(1, 10, 47);
+    border-radius: 3px;
+    border-width: 6px;
+    border-block-width: 7px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Lato', Arial, sans-serif;
+    display: block;
+    margin: 50px;
+}
+
+
+.cita { /* cita de autor INDEX */
+    margin-right: 61rem;
+    font-size: 23px;
+    text-align: center;
+    width: 40%;
+}
+
+.ia { /* primer parrafo IA */
+    font-size: 22px;
+}
+
+
+.clases { /* parrafos de INDEX, OBRAS y segundo y tercer parrafo de IA */
+    width: 70%;
+}
+
+.galeria { /* posición de fotos en OBRAS */
+    display: flex;
+    gap: 30px;
+    border: 6px solid rgb(1, 10, 47);
+    border-radius: 3px;
+    width: 450px;
+    height: 600px;
+    margin-left: 14%;
+}
+
+.video { /* posición del video en IA */
+    border: 4px solid rgb(1, 10, 47);
+    border-radius: 5px;
+    width: 560px;
+    height: 315px;
+    margin: 0 auto;
+}
+
+.section1 { /* posición de parrafos en INDEX */
+    display: flex;
+    gap: 5%;
+    align-items: flex-start;
+    width: 45%;
+}
+
+.div { /* div en IA */
+    display: flex;
+    gap: 20px;
+}
+
+.dos { /* div en IA */
+    flex-direction: column;
+}
+
+
+span { /* nombre de artista en negrita */
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+span:hover, cite:hover, a:hover { /* nombre de artista, obras y mail colores */
+    color: rgb(118, 222, 231);
+}
+
+
+a { /* color de enlaces nav y mail */
+    font-family: 'Lato', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+
+#nav { /* barra de navegación */
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 10, 47);
+    margin-right: 86%;
+    border: 4px solid rgb(1, 10, 47);
+    border-radius: 3px;
+    border-width: 1px;
+    border-block-width: 7px;
+    font-size: 17px;
+    font-family: 'Lato', Arial, sans-serif;
+    display: flex;
+    gap: 27px;
+    list-style-type: square;
+
+}
+
+#ul-obras { /* lista de OBRAS */
+    background-color: rgb(1, 10, 47);
+    border: 4px solid rgb(1, 10, 47);
+    border-radius: 3px;
+    font-family: 'Lato', Arial, sans-serif;
+    color: white;
+    font-size: 17px;
+    width: 50%;
+    margin: 50px;
+}
+
+footer { /* pie de las páginas */
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 10, 47);
+    border: 4px solid rgb(1, 10, 47);
+    border-radius: 3px;
+    border-width: 6px;
+    border-block-width: 7px;
+    font-size: 17px;
+    text-align: left;
+    margin: 3%;
+    width: 21%;
+    font-family: 'Lato', Arial, sans-serif;
+}
