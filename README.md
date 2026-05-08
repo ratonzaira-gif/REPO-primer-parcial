@@ -1,2 +1,4 @@
 # REPO-primer-parcial
-Informatica general UNA
+Zaira Raton
+Primer Parcial - Informática General 
+Artes Multimediales - UNA
