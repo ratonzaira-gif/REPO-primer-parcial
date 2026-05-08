@@ -1,4 +1,4 @@
 # REPO-primer-parcial
-Zaira Raton
+Zaira Raton,
 Primer Parcial - Informática General 
 Artes Multimediales - UNA
